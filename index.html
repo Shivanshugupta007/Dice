@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Playfair+Display+SC:wght@700&family=Zen+Dots&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  <title>Dice Game</title>
+</head>
+
+<body>
+
+
+
+  <div class="cal">
+    <p class="win0 hid">0</p>
+    <p class="win1 hid">3</p>
+    <p class="win2 hid">0</p>
+    <p class="com1 hid">0</p>
+    <p class="com2 hid">0</p>
+    <p class="ans1 hid">0</p>
+    <p class="ans2 hid">0</p>
+  </div>
+
+
+  <div class="all full">
+
+
+    <div class="dices">
+        <h1><u>Roll The Dice To Settle Dispute</u></h1>
+      <div class="allplayer">
+        <h3 class="p1">Player 1</h3>
+        <p class="owner">@Game By Shivanshu</p>
+        <h3 class="p2">Player 2</h3>
+      </div>
+
+      <div class="allp">
+        <div class="points1">
+          <h6><u>Total</u></h6>
+          <p class="score1">0</p>
+        </div>
+        <div class="points2">
+          <h6><u>Total</u></h6>
+          <p class="score2">0</p>
+        </div>
+      </div>
+      <div class="versus">
+        <h5 class="pasa vsl">VS</h5>
+      </div>
+
+      <div class="fro">
+        <img class="f1 pasa" src="images/dice6.png" alt="">
+        <img class="f2 pasa" src="images/dice6.png" alt="">
+      </div>
+
+
+
+
+    </div>
+
+    <div class="buttons">
+
+      <button class="diceRoll resp click1 animate1">Roll Dice 1</button>
+      <button class="diceRoll resp click2 animate1">Roll Dice 2</button>
+    </div>
+    <div class="restart">
+      <p class="restart"><span class="khatam">-</span>&nbsp; New Match Start in 5 Seconds...</p>
+
+    </div>
+
+    <div class="totalling">
+
+      <table border="3" height="auto" width="100%" align=center cellpadding="10">
+
+        <tr>
+          <td class="m1">Match 1</td>
+          <td class="m1">Match 2</td>
+          <td class="m1">Match 3</td>
+          <td class="m1 tin"></td>
+
+          <td class="m1">Match 1</td>
+          <td class="m1">Match 2</td>
+          <td class="m1">Match 3</td>
+        </tr>
+        <tr>
+          <td class="fin1 num1">-</td>
+          <td class="fin2 num1">-</td>
+          <td class="fin3 num1">-</td>
+          <td></td>
+          <td class="pin1 num2">-</td>
+          <td class="pin2 num2">-</td>
+          <td class="pin3 num2">-</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+  <div class="pop">
+    <h2 class="decHead">Rules And Description</h2>
+
+    <div class="rules">
+      <ul>
+        <li>Welcome To Dice Game.</li>
+        <li>There Are Total 3 Match Series.</li>
+        <li>Roll Dice 1 For Player 1 Chance.</li>
+        <li>Roll Dice 2 For Player 2 Chance.</li>
+        <li>Total Will Be Added On Each Time Dice Roll.</li>
+        <li>Final Result Of Match Will Be Concluded On Total After 3 Matchs.</li>
+        <li>Click Start To Enjoy Match.</li>
+      </ul>
+
+    </div>
+
+    <button class="start resp animate1">Start Game</button>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

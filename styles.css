@@ -1,0 +1,343 @@
+body {
+  /* background-image: conic-gradient(#553c9a, #ee4b2b, #5F6F94); */
+  text-align: center;
+}
+
+h1 {
+  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb);
+  font-family: 'Zen Dots', cursive;
+  font-size: 4.5vw;
+  text-align: center;
+}
+
+h5 {
+  font-size: 4vw;
+}
+
+h6 {
+  font-size: 2vw;
+}
+
+.all {
+  background-color: #90A17D;
+  width: 100%;
+  height: 100vh;
+}
+
+.full {
+  filter: blur(5px);
+}
+
+.dices {
+  width: 100%;
+  height: auto;
+  background-color: #227C70;
+  font-family: 'Kenia', cursive;
+  padding: 0 0 2.7% 0;
+}
+
+.allplayer {
+  margin: 2% 0 0 0;
+}
+
+
+.p1 {
+  display: inline-grid;
+  font-size: 5vw;
+  margin: 0 40% 0 0;
+  color: #CEEDC7;
+}
+
+.p2 {
+  display: inline-grid;
+  font-size: 5vw;
+  color: #F9B5D0;
+}
+
+.allp {
+  margin: 2% 0 0 0;
+  padding: 0 0 0 0;
+}
+
+
+.points1 {
+  display: inline-block;
+  width: 10%;
+  height: 8.5vw;
+  background-color: white;
+  border-radius: 10%;
+  margin: 0 60% 0 0;
+}
+
+.points2 {
+  display: inline-block;
+  width: 10%;
+  height: 8.5vw;
+  background-color: white;
+  border-radius: 10%;
+  margin: 0 0 0 0;
+}
+
+.score1 {
+  font-size: 3vw;
+  font-family: 'Zen Dots', cursive;
+}
+
+.score2 {
+  font-size: 3vw;
+  font-family: 'Zen Dots', cursive;
+}
+
+.fro{
+  margin: -9.1% 0 0 0;
+}
+
+.f1 {
+  display: inline-block;
+  width: 9.5%;
+  margin: 0 30% 0 0;
+}
+
+.f2 {
+  display: inline-block;
+  width: 9.5%;
+  margin: 0 0 0 0;
+}
+
+.versus{
+  margin: -7.7% 0 0 0;
+}
+
+.vsl {
+  display: inline-block;
+  font-size: 7vw;
+  color: black;
+  margin: 0 0 0 0;
+}
+
+.buttons {
+  width: 100%;
+  height: auto;
+  background-color: #90A17D;
+  padding: 0 0 0 0;
+}
+
+.totalling {
+  width: 100%;
+  height: auto;
+  background-color: #227C70;
+}
+
+td {
+  padding: 2% 0 0 2%;
+}
+
+.match {
+  width: 100%;
+  height: auto;
+}
+
+.m1 {
+  font-family: 'Zen Dots', cursive;
+  font-size: 2.5vw;
+  color: black;
+}
+
+.num1 {
+  font-family: 'Zen Dots', cursive;
+  font-size: 3vw;
+  color: #CEEDC7;
+}
+
+.num2 {
+  font-family: 'Zen Dots', cursive;
+  font-size: 3vw;
+  color: #F9B5D0;
+}
+
+.cal {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.countdown {
+  position: absolute;
+  width: 75%;
+  height: auto;
+}
+
+.restart {
+  width: 100%;
+  height: auto;
+  font-family: 'Zen Dots', cursive;
+  background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  font-size: 2vw;
+  padding: 1% 0 1% 0;
+  margin: 0 0 0 0;
+}
+
+.pop {
+  position: absolute;
+  width: 75%;
+  height: auto;
+  border-radius: 3rem;
+  background-image: radial-gradient(#7D8F69, #A9AF7E, #557153);
+  margin: -43% 0 0 12.5%;
+}
+
+.decHead {
+  font-size: 3vw;
+  font-family: 'Zen Dots', cursive;
+}
+
+.rules {
+  width: 75%;
+  height: auto;
+  font-family: 'Zen Dots', cursive;
+  text-align: left;
+  font-size: 1.8vw;
+  line-height: 1.5;
+}
+
+.animate1 {
+  /* appearance: none; */
+  background-image: conic-gradient(#CDF0EA, #ee4b2b, #F9F9F9);
+  border-radius: 40rem;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Zen Dots', cursive;
+  /* font-size: 5%; */
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0.5% 0 0.5% 0;
+  outline: none;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.animate1:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.animate1:active {
+  transform: scale(1.025);
+}
+
+.resp {
+  width: 25%;
+  height: auto;
+  font-size: 2.2vw;
+  margin: 1.8% 0 1.8% 0;
+}
+
+.ps {
+  opacity: 1;
+}
+
+.hid {
+  opacity: 0;
+}
+
+.owner {
+  position: absolute;
+  margin: 2% 0 0 -29.85%;
+  display: grid;
+  font-family: 'Zen Dots', cursive;
+  background-image: linear-gradient(-225deg,
+      #DC3535 0%,
+      #FF8DC7 29%,
+      #F3EFE0 67%,
+      #0014FF 100%);
+  background-size: 20% auto;
+  color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 7s linear infinite;
+  display: inline-block;
+  font-size: 1.5vw;
+}
+
+@keyframes textclip {
+  to {
+    background-position: center;
+  }
+}
+
+@media (max-width: 686px) {
+  .all {
+    background-color: #90A17D;
+  }
+
+  .allplayer {
+    margin: 5% 0 0 0;
+  }
+
+
+  .allp {
+    margin: 5% 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+
+  .points1 {
+    display: inline-block;
+    margin: 0 45% 0 0;
+  }
+    .points2 {
+      display: inline-block;
+      margin: 0 0 0 0;
+    }
+
+    .versus{
+      margin: 5% 0 0 0;
+    }
+
+  .vsl {
+    display: inline-block;
+    margin: 0 0 0 0;
+  }
+
+  .fro{
+    margin: 5% 0 0 0;
+    padding: 0 0 5% 0;
+  }
+
+  .f1 {
+    display: inline-block;
+    margin: 0 45% 0 0;
+  }
+
+  .f2 {
+    display: inline-block;
+    margin: 0 0 0 0;
+  }
+
+  .resp {
+    width: 40%;
+    height: auto;
+    font-size: 3vw;
+    margin: 5% 0 5% 0;
+  }
+
+  .restart{
+    font-size: 3.7vw;
+  }
+
+  .pop{
+    margin: -90% 0  0 13%;
+  }
+
+}
