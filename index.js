@@ -1,8 +1,7 @@
 $(".restart").toggle();
 $(".start").one("click", function() {
   $(".click2").toggle();
-  $(".pop").toggle();
-  $(".all").removeClass("full");
+  $(".start").toggle();
 });
 
 $(".click1").click(function() {
